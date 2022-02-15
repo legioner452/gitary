@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Humter";
+  src: url(/fonts/Humger.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Searchlight";
+  src: url(/fonts/Searchlight_PersonalUse.otf);
+  font-weight: 400;
+}

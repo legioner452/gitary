@@ -1,10 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/media.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Russtone</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="header">
+        <div class="container">
+          <div class="header__top">
+            <nav class="nav__top">
+              <ul class="nav__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Гитары</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Струны</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Аксессуары</a>
+                </li>
+              </ul>
+            </nav>
+            <h3 class="logo__text">Russtone</h3>
+            <form class="menu__form">
+              <input
+                class="menu__imput"
+                type="search"
+                name="text"
+                placeholder="Поиск по сайту"
+              />
+              <input
+                class="menu__zoom"
+                type="image"
+                name="picture"
+                src="/image/svg/zoom.svg"
+              />
+            </form>
+          </div>
+        </div>
+        <div class="header__menu--container">
+          <ul class="menu__list">
+            <li class="menu__item-header">
+              <a href="#" class="menu__link__header">О бренде</a>
+            </li>
+            <li class="menu__item-header">
+              <a href="#" class="menu__link__header">Где купить</a>
+            </li>
+            <li class="menu__item-header">
+              <a href="#" class="menu__link__header">Сервис </a>
+            </li>
+            <li class="menu__item-header">
+              <a href="#" class="menu__link__header">Как стать дилером</a>
+            </li>
+            <li class="menu__item-header">
+              <a href="#" class="menu__link__header">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__content">
+          <div class="container">
+            <div class="header__content-text">
+              <h1 class="header__title">Russtone RG200F/LBL</h1>
+              <h3 class="header__text">Потрясающее звучание и дизайн</h3>
+              <button class="btn">Подрорнее</button>
+            </div>
+            <img class="img__header" src="/image/gitar.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="product">
+        <span class="catalog__border"></span>
+      </section>
+    </main>
+  </body>
 </html>

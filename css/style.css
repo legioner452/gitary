@@ -1,0 +1,171 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+body {
+  font-family: "Inter", sans-serif;
+  /* font-family: "Oswald", sans-serif; */
+  /* font-family: "Humter"; */
+  /* font-family: "Searchlight"; */
+  font-weight: 400;
+}
+.container {
+  width: 100%;
+  max-width: 1410px;
+  margin: 0 auto;
+}
+
+.header__top {
+  height: 124px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+}
+.menu__item {
+  margin: 0 30px;
+}
+.nav__list:first-child {
+  margin-left: 30px;
+}
+.menu__link {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  color: #151515;
+  transition: 0.3s;
+}
+
+.menu__link:hover {
+  opacity: 0.3;
+}
+
+.logo__text {
+  font-family: "Searchlight";
+  font-weight: 600;
+  font-size: 100px;
+  color: #151515;
+  transform: rotate(-10deg);
+}
+.menu__form {
+  width: 100%;
+  max-width: 345px;
+}
+.menu__imput {
+  padding-bottom: 5px;
+  border: none;
+  border-bottom: 1px solid #dadada;
+  width: 100%;
+  max-width: 320px;
+  outline: none;
+}
+
+.menu__imput::-webkit-search-decoration,
+.menu__imput::-webkit-search-cancel-button,
+.menu__imput::-webkit-search-results-button,
+.menu__imput::-webkit-search-results-decoration {
+  display: none;
+}
+
+.menu__imput:focus {
+  border-bottom: 1px solid #151515;
+}
+.menu__zoom {
+  position: relative;
+  left: -30px;
+  bottom: 4px;
+}
+
+.header__menu--container {
+  margin: auto;
+  background: #ff2c2c;
+}
+
+.menu__list {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu__item-header {
+  list-style-type: none;
+}
+.menu__link__header {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.menu__link__header:hover {
+  color: #151515;
+}
+
+.header__content {
+  background: #000;
+}
+
+.header__content-text {
+  padding-top: 200px;
+  padding-left: 105px;
+  color: #fff;
+  position: absolute;
+  z-index: 2;
+}
+
+.header__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 120px;
+}
+
+.header__text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22.4px;
+  letter-spacing: 5.5px;
+  text-transform: uppercase;
+}
+
+.btn {
+  font-family: "Oswald", sans-serif;
+  margin-top: 40px;
+  background: inherit;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 20px 73px;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.btn:hover {
+  background: #fff;
+  color: #151515;
+}
+
+.img__header {
+  display: block;
+  position: relative;
+  top: -20px;
+  left: -300px;
+}
+
+.catalog__border::before {
+  display: block;
+  height: 140px;
+  content: "";
+  padding: 50px;
+  background-origin: bor-box;
+  background: url("../image/catalog.png") center padding-box;
+  background-repeat: repeat-x;
+}
